@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int main()
+{
+ 
+    int a ,b,c,d;
+       printf("Enter the values of a, b,c,d : ");
+    
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+
+   if (a > b && c == d)
+        printf("a is greater than b AND c is equal to d\n");
+    else
+        printf("AND condition not satisfied\n");
+
+    if (a > b || c == d)
+        printf("a is greater than b OR c is equal to d\n");
+    else
+        printf("Neither a is greater than b nor c is equal "
+               " to d\n");
+     if (!a)
+        printf("a is zero\n");
+    else
+        printf("a is not zero");
+ 
+    return 0;
+}
